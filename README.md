@@ -1,2 +1,2 @@
-# goit-markup-hw-03
-Modul-3
+# goit-markup-hw-02
+Модуль 2. Основи CSS

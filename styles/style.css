@@ -10,8 +10,39 @@ body {
     font-family: 'roboto', sans-serif; 
     color: var(--header-color);
 }
-ul {
-    list-style-type: none;  
+.container {
+    width: 1200px;
+}
+* {
+    box-sizing: border-box;
+}
+/* reset bases (ul) */
+.list {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}   
+/* reset margin style */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+.address {
+    font-style: normal;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .header {
     background-color: var(--white-text-color);
@@ -168,9 +199,6 @@ ul {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--address-color);
-}
-.address {
-    font-style: normal;
 }
 /* Portfolio */
 /* Visually-hidden */
